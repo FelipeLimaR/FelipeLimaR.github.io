@@ -4,76 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Felipe Lima</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Dev Icon Fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
+
 <body>
+    <main id="container">
+        <aside id="bio-container">
+            <div id="fixed">
 
-    <div>
-        <div id="conteudo">
-            <h1 id="name">Felipe Lima</h1>
             
-            <div id="divDescricao">
-                <img id="foto" src="perfil.jpeg" alt="Felipe Lima">
-                <p id="descricao">
-                    Musico, gastronomo, formando em Análise e desenvolvimento de Sistemas, estudante de Desenvolvimento Web pela Trybe.
-                </p>
+                <h2>Felipe Lima</h2>
+                <img id="bio-img" src="../img/perfil.jpeg" alt="Felipe Lima">
+                <p>Hi, im Felipe. Im a <span class="highlight">FullStack Developer</span></p>
+                <p id="welcome-text">Wellcome!</p>
+                <ul id="social-container">
+                    <li>
+                        <a href="https://www.linkedin.com/in/dev-felipe-lima/" target="_blank">
+                            <ion-icon id="linkedin-icon" name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/FelipeLimaR" target="_blank">
+                            <ion-icon id="github-icon" name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.duolingo.com/profile/Felipe-Lima02" target="_blank">
+                            <img id="duo-icon"src="../img/duo.svg">
+                        </a>
+                    </li>
+
+                </ul>
+                <div id="mail-container">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <a href="mailto:felipe__andrew@hotmail.com">felipe__andrew@hotmail.com</a>
+                </div>
             </div>
-        </div>
-        
-        <h3>Sobre mim</h3>
+        </aside>
 
-    </div>
+        <section id="about-container">
+            <h1 id="name">Felipe Lima</h1>
+            <p id="title"><span class="highlight">FullStack Developer</span></p>
+            <p class="description">
+                <ul class="description-list">
+                    <li>💻 Formado em Desenvolvimento Web - Trybe</li>
+                    <li>👨‍💻 Formando em Análise e desenvolvimento de Sistemas - Estácio</li>
+                    <li>🎸 Músico (Baixo, Teclado, Guitarra)</li>
+                    <li>👨‍🍳 Gastrônomo</li>
+                </ul>
+            </p>
+            <p class="description">
+                <ul class="description-list">
+                    <li>Estou sempre querendo saber como tudo funciona.</li>
+                    <li>Gosto de entender linguagens, idiomas e códigos.</li>
+                    <li>Amante das artes, sobretudo da música.</li>
+                    <li>Hobbies: Tocar, ler, jogos de construção e gerenciamento, aprender idiomas, aprender algo novo.</li>
+                    <li>Curiosidades: Sou ambidestro.</li>
+                </ul>
+            </p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Projects</span></a>
+            <h2 id="skills-section-title">Hard Skills</h2>
+            <p class="description">Conheça as tecnologias que domino</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-typescript-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Database</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-mongodb-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-docker-plain colored"></i>
+                    <i class="devicon-vscode-plain colored"></i>
+                </div>
+            </div>
 
-    <ul>
-        <li>
-            <a href="#">Principáis habilidades</a>
-        </li>
-        <li>
-            <a href="#">Outras habilidades</a></ul>
-        </li>
-    </ul>
+            <h2 id="skills-section-title">Soft Skills</h2>
+            <p class="description">Habilidades comportamentais que me orgulho</p>
 
-    <h2>Informações básicas</h2>
-    <p>
-        <strong>Nacionalidade: </strong><em>Brasileiro</em><br>
-        <strong>Moradia: </strong><em>Maceió - AL</em><br>
-    </p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Empatia</p>
+                    <p class="skills-title">Escuta ativa</p>
+                    <p class="skills-title">Colaboração</p>
+                </div>
+                
+                <div class="skills-box">
+                    <p class="skills-title">Resiliência</p>
+                    <p class="skills-title">Adaptação</p>
+                    <p class="skills-title">Pensamento crítico</p>
+                </div>
 
-    <ul>
-        <li>
-            <a href="">LinkedIn</a>
-        </li>
-        <li>
-            <a href="">GitHub</a>
-        </li>
-    </ul>
-    
-    <h3>
-        Habilidades que mais me orgulho
-    </h3>
+                <div class="skills-box">
+                    <p class="skills-title">Criatividade</p>
+                    <p class="skills-title">Negociação</p>
+                </div>
+            </div>
 
-    <ul>
-        <li>Colaboração</li>
-        <li>Empatia</li>
-        <li>Saber ouvir</li>
-        <li>Paciência</li>
-    </ul>
+            <h2 id="skills-section-title">Idiomas</h2>
 
-    <h3>Idiomas</h3>
-    <ul>
-        <li>Inglês (intermediário)</li>
-        <li>Alemão (iniciante)</li>
-        <li>Norueguês (iniciante)</li>
-    </ul>
-   
-    <h2>Outras habilidades</h2>
-    <ul id="hab">
-        <li class="habilidade1">JavaScript</li>
-        <li class="habilidade2">Python</li>
-        <li class="habilidade3">Android Stúdio</li>
-    </ul>
+                <div id="skills-container">
+                    <div class="skills-box">
+                        <p class="skills-title">🇺🇸 Inglês - <span><em>Intermediário</em></span></p>
+                        <p class="skills-title">🇳🇴 Norueguês - <em>Básico</em></p>
+                        <p class="skills-title">🇩🇪 Alemão - <em>Básico</em></p>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+
+
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
